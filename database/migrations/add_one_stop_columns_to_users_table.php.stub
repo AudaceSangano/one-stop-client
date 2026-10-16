@@ -1,0 +1,22 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+/**
+ * Columns needed by "Sign in with MAICO One-Stop" (maico/one-stop-client).
+ * Each column is only added when missing, so this is safe on any copy of the database.
+ */
+return new class extends Migration
+{
+    public function up(): void
+    {
+{{ up }}
+    }
+
+    public function down(): void
+    {
+{{ down }}
+    }
+};
